@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680E5C951B94C31F00C80894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E5C941B94C31F00C80894 /* main.m */; };
+		680E5C981B94C32000C80894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E5C971B94C32000C80894 /* AppDelegate.m */; };
+		680E5C9B1B94C32000C80894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E5C9A1B94C32000C80894 /* ViewController.m */; };
+		680E5C9E1B94C32000C80894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680E5C9C1B94C32000C80894 /* Main.storyboard */; };
+		680E5CA11B94C32000C80894 /* TriniTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 680E5C9F1B94C32000C80894 /* TriniTime.xcdatamodeld */; };
+		680E5CA31B94C32000C80894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680E5CA21B94C32000C80894 /* Assets.xcassets */; };
+		680E5CA61B94C32000C80894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680E5CA41B94C32000C80894 /* LaunchScreen.storyboard */; };
+		680E5CB11B94C32100C80894 /* TriniTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E5CB01B94C32100C80894 /* TriniTimeTests.m */; };
+		680E5CBC1B94C32100C80894 /* TriniTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E5CBB1B94C32100C80894 /* TriniTimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680E5CAD1B94C32000C80894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680E5C881B94C31E00C80894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680E5C8F1B94C31E00C80894;
+			remoteInfo = TriniTime;
+		};
+		680E5CB81B94C32100C80894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680E5C881B94C31E00C80894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680E5C8F1B94C31E00C80894;
+			remoteInfo = TriniTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680E5C901B94C31F00C80894 /* TriniTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriniTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680E5C941B94C31F00C80894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		680E5C961B94C32000C80894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		680E5C971B94C32000C80894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		680E5C991B94C32000C80894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		680E5C9A1B94C32000C80894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		680E5C9D1B94C32000C80894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680E5CA01B94C32000C80894 /* TriniTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriniTime.xcdatamodel; sourceTree = "<group>"; };
+		680E5CA21B94C32000C80894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680E5CA51B94C32000C80894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		680E5CA71B94C32000C80894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680E5CAC1B94C32000C80894 /* TriniTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriniTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680E5CB01B94C32100C80894 /* TriniTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriniTimeTests.m; sourceTree = "<group>"; };
+		680E5CB21B94C32100C80894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680E5CB71B94C32100C80894 /* TriniTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriniTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680E5CBB1B94C32100C80894 /* TriniTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriniTimeUITests.m; sourceTree = "<group>"; };
+		680E5CBD1B94C32100C80894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680E5C8D1B94C31E00C80894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CA91B94C32000C80894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CB41B94C32100C80894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680E5C871B94C31E00C80894 = {
+			isa = PBXGroup;
+			children = (
+				680E5C921B94C31F00C80894 /* TriniTime */,
+				680E5CAF1B94C32000C80894 /* TriniTimeTests */,
+				680E5CBA1B94C32100C80894 /* TriniTimeUITests */,
+				680E5C911B94C31F00C80894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680E5C911B94C31F00C80894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680E5C901B94C31F00C80894 /* TriniTime.app */,
+				680E5CAC1B94C32000C80894 /* TriniTimeTests.xctest */,
+				680E5CB71B94C32100C80894 /* TriniTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680E5C921B94C31F00C80894 /* TriniTime */ = {
+			isa = PBXGroup;
+			children = (
+				680E5C961B94C32000C80894 /* AppDelegate.h */,
+				680E5C971B94C32000C80894 /* AppDelegate.m */,
+				680E5C991B94C32000C80894 /* ViewController.h */,
+				680E5C9A1B94C32000C80894 /* ViewController.m */,
+				680E5C9C1B94C32000C80894 /* Main.storyboard */,
+				680E5CA21B94C32000C80894 /* Assets.xcassets */,
+				680E5CA41B94C32000C80894 /* LaunchScreen.storyboard */,
+				680E5CA71B94C32000C80894 /* Info.plist */,
+				680E5C9F1B94C32000C80894 /* TriniTime.xcdatamodeld */,
+				680E5C931B94C31F00C80894 /* Supporting Files */,
+			);
+			path = TriniTime;
+			sourceTree = "<group>";
+		};
+		680E5C931B94C31F00C80894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680E5C941B94C31F00C80894 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		680E5CAF1B94C32000C80894 /* TriniTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				680E5CB01B94C32100C80894 /* TriniTimeTests.m */,
+				680E5CB21B94C32100C80894 /* Info.plist */,
+			);
+			path = TriniTimeTests;
+			sourceTree = "<group>";
+		};
+		680E5CBA1B94C32100C80894 /* TriniTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				680E5CBB1B94C32100C80894 /* TriniTimeUITests.m */,
+				680E5CBD1B94C32100C80894 /* Info.plist */,
+			);
+			path = TriniTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680E5C8F1B94C31E00C80894 /* TriniTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680E5CC01B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTime" */;
+			buildPhases = (
+				680E5C8C1B94C31E00C80894 /* Sources */,
+				680E5C8D1B94C31E00C80894 /* Frameworks */,
+				680E5C8E1B94C31E00C80894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriniTime;
+			productName = TriniTime;
+			productReference = 680E5C901B94C31F00C80894 /* TriniTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680E5CAB1B94C32000C80894 /* TriniTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680E5CC31B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTimeTests" */;
+			buildPhases = (
+				680E5CA81B94C32000C80894 /* Sources */,
+				680E5CA91B94C32000C80894 /* Frameworks */,
+				680E5CAA1B94C32000C80894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680E5CAE1B94C32000C80894 /* PBXTargetDependency */,
+			);
+			name = TriniTimeTests;
+			productName = TriniTimeTests;
+			productReference = 680E5CAC1B94C32000C80894 /* TriniTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680E5CB61B94C32100C80894 /* TriniTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680E5CC61B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTimeUITests" */;
+			buildPhases = (
+				680E5CB31B94C32100C80894 /* Sources */,
+				680E5CB41B94C32100C80894 /* Frameworks */,
+				680E5CB51B94C32100C80894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680E5CB91B94C32100C80894 /* PBXTargetDependency */,
+			);
+			name = TriniTimeUITests;
+			productName = TriniTimeUITests;
+			productReference = 680E5CB71B94C32100C80894 /* TriniTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680E5C881B94C31E00C80894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Small App Genius";
+				TargetAttributes = {
+					680E5C8F1B94C31E00C80894 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					680E5CAB1B94C32000C80894 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 680E5C8F1B94C31E00C80894;
+					};
+					680E5CB61B94C32100C80894 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 680E5C8F1B94C31E00C80894;
+					};
+				};
+			};
+			buildConfigurationList = 680E5C8B1B94C31E00C80894 /* Build configuration list for PBXProject "TriniTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680E5C871B94C31E00C80894;
+			productRefGroup = 680E5C911B94C31F00C80894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680E5C8F1B94C31E00C80894 /* TriniTime */,
+				680E5CAB1B94C32000C80894 /* TriniTimeTests */,
+				680E5CB61B94C32100C80894 /* TriniTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680E5C8E1B94C31E00C80894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680E5CA61B94C32000C80894 /* LaunchScreen.storyboard in Resources */,
+				680E5CA31B94C32000C80894 /* Assets.xcassets in Resources */,
+				680E5C9E1B94C32000C80894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CAA1B94C32000C80894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CB51B94C32100C80894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680E5C8C1B94C31E00C80894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680E5C9B1B94C32000C80894 /* ViewController.m in Sources */,
+				680E5C981B94C32000C80894 /* AppDelegate.m in Sources */,
+				680E5C951B94C31F00C80894 /* main.m in Sources */,
+				680E5CA11B94C32000C80894 /* TriniTime.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CA81B94C32000C80894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680E5CB11B94C32100C80894 /* TriniTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680E5CB31B94C32100C80894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680E5CBC1B94C32100C80894 /* TriniTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680E5CAE1B94C32000C80894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680E5C8F1B94C31E00C80894 /* TriniTime */;
+			targetProxy = 680E5CAD1B94C32000C80894 /* PBXContainerItemProxy */;
+		};
+		680E5CB91B94C32100C80894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680E5C8F1B94C31E00C80894 /* TriniTime */;
+			targetProxy = 680E5CB81B94C32100C80894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680E5C9C1B94C32000C80894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680E5C9D1B94C32000C80894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		680E5CA41B94C32000C80894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680E5CA51B94C32000C80894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680E5CBE1B94C32100C80894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		680E5CBF1B94C32100C80894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680E5CC11B94C32100C80894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriniTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		680E5CC21B94C32100C80894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriniTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		680E5CC41B94C32100C80894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TriniTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriniTime.app/TriniTime";
+			};
+			name = Debug;
+		};
+		680E5CC51B94C32100C80894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TriniTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriniTime.app/TriniTime";
+			};
+			name = Release;
+		};
+		680E5CC71B94C32100C80894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TriniTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TriniTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		680E5CC81B94C32100C80894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TriniTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallappgenius-TriniTime.TriniTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TriniTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680E5C8B1B94C31E00C80894 /* Build configuration list for PBXProject "TriniTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680E5CBE1B94C32100C80894 /* Debug */,
+				680E5CBF1B94C32100C80894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680E5CC01B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680E5CC11B94C32100C80894 /* Debug */,
+				680E5CC21B94C32100C80894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		680E5CC31B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680E5CC41B94C32100C80894 /* Debug */,
+				680E5CC51B94C32100C80894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		680E5CC61B94C32100C80894 /* Build configuration list for PBXNativeTarget "TriniTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680E5CC71B94C32100C80894 /* Debug */,
+				680E5CC81B94C32100C80894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		680E5C9F1B94C32000C80894 /* TriniTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				680E5CA01B94C32000C80894 /* TriniTime.xcdatamodel */,
+			);
+			currentVersion = 680E5CA01B94C32000C80894 /* TriniTime.xcdatamodel */;
+			path = TriniTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 680E5C881B94C31E00C80894 /* Project object */;
+}
